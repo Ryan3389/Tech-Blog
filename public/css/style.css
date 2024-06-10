@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: lightblue;
+}
+
+nav {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+/*HOME STYLES*/
+.main-blog {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.blog-container article {
+    margin: 10px;
+}
+
+.blog-container p {
+    font-size: 20px;
+}
+
+.blog-container h1 {
+    font-size: 30px;
+}
+
+/*DASHBOARD STYLES*/
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.dashboard h1 {
+    font-size: 35px;
+}
+
+div.btn-container button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+div.btn-container {
+    margin: 10px 0;
+}
+
+/*LOGIN STYLES*/
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.input-container {
+    margin: 10px 0;
+}
+
+.input-container input {
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black
+}
+
+.input-container label {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.form-container .login-btn {
+    padding: 5px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+/*NEW POST STYLES*/
+.input-container textarea {
+    width: 100%;
+    resize: none;
+}
+
+.new-post-btn {
+    padding: 5px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 17px;
+}
