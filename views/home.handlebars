@@ -1,0 +1,23 @@
+<header>
+    <nav>
+        <h2>Tech Blog</h2>
+        <div class="nav-links">
+            <a href="/dashboard">Dashboard</a>
+            <a href="/login">Login</a>
+            <a href="/signup">Sign up</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="main-blog">
+        <div class="blog-container">
+            {{#each posts as |post|}}
+            <article>
+                <h1>{{post.title}}</h1>
+                <p>{{post.description}}</p>
+            </article>
+            {{/each}}
+        </div>
+    </section>
+</main>
