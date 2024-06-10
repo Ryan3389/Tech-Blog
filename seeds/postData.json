@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Introduction to JavaScript",
+        "description": "A beginner's guide to better understand JavaScript"
+    },
+    {
+        "title": "Introduction to Node.js and Express.js",
+        "description": "A beginner's guide to learning JavaScript for the backend"
+    },
+    {
+        "title": "How to become a full stack developer",
+        "description": "Follow these steps if you want to become a full stack developer"
+    }
+]
